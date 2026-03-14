@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Plumbing | Expert Services in Benin City</title>
+    <meta name="description" content="Aura Plumbing Company provides fast, professional 24/7 plumbing services in Benin City. Leak detection, installations, and repairs.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-slate-700 font-sans antialiased">
+
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#home" class="flex items-center gap-3 group">
+                <img src="https://r2-bucket.flowith.net/f/e40304076643f972/aura_plumbing_logo_design_index_0.jpeg" alt="Aura Plumbing Logo" class="w-12 h-12 rounded-full object-cover border-2 border-aqua shadow-lg group-hover:scale-110 transition-transform">
+                <span class="text-2xl font-bold tracking-tight text-white transition-colors duration-300" id="brand-name">Aura Plumbing</span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="nav-link text-white hover:text-aqua font-semibold">Home</a>
+                <a href="#services" class="nav-link text-white hover:text-aqua font-semibold">Services</a>
+                <a href="#about" class="nav-link text-white hover:text-aqua font-semibold">About</a>
+                <a href="#contact" class="bg-aqua text-navy px-6 py-2 rounded-full font-bold hover:bg-white transition-colors shadow-md">Book Now</a>
+            </nav>
+
+            <!-- Mobile Toggle -->
+            <button class="md:hidden text-white text-2xl focus:outline-none" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="fixed inset-0 bg-navy z-40 flex flex-col items-center justify-center space-y-8 text-2xl transform translate-x-full transition-transform duration-300">
+            <button class="absolute top-6 right-6 text-white text-3xl" id="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <a href="#home" class="mobile-nav-link text-white">Home</a>
+            <a href="#services" class="mobile-nav-link text-white">Services</a>
+            <a href="#about" class="mobile-nav-link text-white">About</a>
+            <a href="#contact" class="bg-aqua text-navy px-8 py-3 rounded-full font-bold">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen flex items-center overflow-hidden">
+        <div class="absolute inset-0 bg-navy/60 z-10"></div>
+        <img src="images/picture-1.jpeg" alt="Luxury Bathroom" class="absolute inset-0 w-full h-full object-cover scale-105 animate-slow-zoom">
+        
+        <div class="container mx-auto px-6 relative z-20 text-center md:text-left">
+            <div class="max-w-3xl space-y-6 fade-in-up">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
+                    Reliable 24/7 <br><span class="text-aqua">Plumbing Services</span> in Benin City
+                </h1>
+                <p class="text-lg md:text-xl text-white/90 font-light leading-relaxed">
+                    Aura Plumbing Company provides fast, professional plumbing services for homes and businesses. Restoring your peace of mind with a touch of brilliance.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a href="tel:09164399886" class="btn-primary flex items-center justify-center gap-2">
+                        <i class="fas fa-phone-alt"></i> Call Now
+                    </a>
+                    <a href="https://wa.me/2349164399886" class="btn-secondary flex items-center justify-center gap-2">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-3xl md:text-4xl font-bold text-navy mb-4">Our Premium Services</h2>
+                <div class="h-1.5 w-24 bg-aqua mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Leak Detection -->
+                <div class="service-card animate-on-scroll">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="images/picture-2.jpeg" alt="Leak Detection" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <div class="absolute top-4 left-4 bg-aqua text-navy p-3 rounded-lg shadow-lg">
+                            <i class="fas fa-search-location text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 text-navy">Leak Detection</h3>
+                        <p class="text-slate-600 mb-4">Advanced acoustic and thermal diagnostics to pinpoint hidden leaks without damaging your walls.</p>
+                        <ul class="text-sm space-y-2 text-slate-500">
+                            <li><i class="fas fa-check text-aqua mr-2"></i> Non-invasive methods</li>
+                            <li><i class="fas fa-check text-aqua mr-2"></i> Pipe burst prevention</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Shower/Toilet -->
+                <div class="service-card animate-on-scroll">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="images/picture-3.jpeg" alt="Installation" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <div class="absolute top-4 left-4 bg-aqua text-navy p-3 rounded-lg shadow-lg">
+                            <i class="fas fa-shower text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 text-navy">Expert Installations</h3>
+                        <p class="text-slate-600 mb-4">Precision installation of showers, faucets, and toilets for a seamless and luxury bathroom experience.</p>
+                        <ul class="text-sm space-y-2 text-slate-500">
+                            <li><i class="fas fa-check text-aqua mr-2"></i> Designer fixtures</li>
+                            <li><i class="fas fa-check text-aqua mr-2"></i> Leak-proof sealing</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Water Heater -->
+                <div class="service-card animate-on-scroll">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="images/picture-4.jpeg" alt="Water Heater" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <div class="absolute top-4 left-4 bg-aqua text-navy p-3 rounded-lg shadow-lg">
+                            <i class="fas fa-hot-tub text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 text-navy">Heaters & Tanks</h3>
+                        <p class="text-slate-600 mb-4">Specialized in tankless water heater installation and large-scale water tank management systems.</p>
+                        <ul class="text-sm space-y-2 text-slate-500">
+                            <li><i class="fas fa-check text-aqua mr-2"></i> High efficiency units</li>
+                            <li><i class="fas fa-check text-aqua mr-2"></i> Same-day repairs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-24 bg-navy text-white overflow-hidden relative">
+        <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-aqua/10 rounded-full blur-3xl"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="animate-on-scroll">
+                    <h2 class="text-4xl font-bold mb-6">The Aura <span class="text-aqua">Advantage</span></h2>
+                    <p class="text-lg text-slate-300 mb-10 leading-relaxed">
+                        Aura Plumbing Company was founded on the principle that home maintenance should be stress-free. Our licensed technicians combine decades of experience with modern technology to provide long-lasting results.
+                    </p>
+                    <div class="grid sm:grid-cols-2 gap-8">
+                        <div class="flex gap-4">
+                            <div class="text-aqua text-2xl"><i class="fas fa-clock"></i></div>
+                            <div>
+                                <h4 class="font-bold mb-1">24/7 Availability</h4>
+                                <p class="text-sm text-slate-400">Emergency support any time of the day or night.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="text-aqua text-2xl"><i class="fas fa-dollar-sign"></i></div>
+                            <div>
+                                <h4 class="font-bold mb-1">Upfront Pricing</h4>
+                                <p class="text-sm text-slate-400">No hidden fees or surprise costs, ever.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="text-aqua text-2xl"><i class="fas fa-award"></i></div>
+                            <div>
+                                <h4 class="font-bold mb-1">Certified Pros</h4>
+                                <p class="text-sm text-slate-400">Fully licensed, bonded, and insured team.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="text-aqua text-2xl"><i class="fas fa-shield-alt"></i></div>
+                            <div>
+                                <h4 class="font-bold mb-1">Clean Workspace</h4>
+                                <p class="text-sm text-slate-400">We treat your home like our own—no mess left behind.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative animate-on-scroll">
+                    <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
+                        <img src="images/picture-3.jpeg" alt="Quality Work" class="w-full">
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 bg-aqua text-navy p-6 rounded-2xl shadow-xl">
+                        <span class="block text-4xl font-bold">100%</span>
+                        <span class="text-sm font-semibold uppercase">Customer Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-navy">What Our Clients Say</h2>
+                <div class="flex justify-center gap-1 text-yellow-400 mt-2">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="mt-2 text-slate-500 font-semibold">Average 5.0 Rating (11 Reviews)</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="review-card animate-on-scroll">
+                    <p class="italic text-slate-600 mb-6">"Exceptional service! They arrived within 30 minutes for a pipe burst and fixed it efficiently. Truly professional."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-slate-200 rounded-full flex items-center justify-center font-bold text-navy">JI</div>
+                        <div>
+                            <p class="font-bold text-navy text-sm">John Izekor</p>
+                            <p class="text-xs text-slate-400">Homeowner in Oka</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card animate-on-scroll">
+                    <p class="italic text-slate-600 mb-6">"Professional installation of our new tankless water heater. The team was clean and explain everything clearly."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-slate-200 rounded-full flex items-center justify-center font-bold text-navy">SO</div>
+                        <div>
+                            <p class="font-bold text-navy text-sm">Sarah O.</p>
+                            <p class="text-xs text-slate-400">Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card animate-on-scroll">
+                    <p class="italic text-slate-600 mb-6">"Finally found a plumbing service in Benin that actually cares about quality. Highly recommend Aura Plumbing."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-slate-200 rounded-full flex items-center justify-center font-bold text-navy">EO</div>
+                        <div>
+                            <p class="font-bold text-navy text-sm">Emmanuel O.</p>
+                            <p class="text-xs text-slate-400">Property Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section id="contact" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <div class="animate-on-scroll">
+                    <h2 class="text-3xl font-bold text-navy mb-8">Get In Touch</h2>
+                    <div class="space-y-6 mb-12">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-white shadow-md rounded-lg flex items-center justify-center text-aqua text-xl shrink-0">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">Office Address</h4>
+                                <p class="text-slate-600">7 Uyiosa Izekor Cl, Godwin Abbe Way, Oka, Benin City 300201, Edo, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-white shadow-md rounded-lg flex items-center justify-center text-aqua text-xl shrink-0">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">Phone / WhatsApp</h4>
+                                <p class="text-slate-600">0916 439 9886</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-white shadow-md rounded-lg flex items-center justify-center text-aqua text-xl shrink-0">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">Opening Hours</h4>
+                                <p class="text-slate-600">Open 24 hours (Monday - Sunday)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-3xl overflow-hidden shadow-xl h-[300px] border-4 border-white">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.485125302325!2d5.6263529!3d6.3265116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3a5e5555555%3A0x5555555555555555!2sBenin%20City!5e0!3m2!1sen!2sng!4v1600000000000" 
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <div class="bg-white p-10 rounded-3xl shadow-2xl animate-on-scroll">
+                    <h3 class="text-2xl font-bold text-navy mb-6 text-center">Request a Quote</h3>
+                    <form id="contact-form" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">Full Name</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:border-aqua focus:ring-1 focus:ring-aqua transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">Phone Number</label>
+                            <input type="tel" required class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:border-aqua focus:ring-1 focus:ring-aqua transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">Message</label>
+                            <textarea rows="4" required class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:outline-none focus:border-aqua focus:ring-1 focus:ring-aqua transition-all" placeholder="How can we help?"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-navy text-white py-4 rounded-xl font-bold hover:bg-aqua hover:text-navy transition-all transform hover:-translate-y-1 shadow-lg">
+                            Send Message
+                        </button>
+                    </form>
+                    <div id="form-feedback" class="hidden mt-4 text-center p-3 bg-green-100 text-green-700 rounded-lg font-semibold">
+                        Thank you! We'll contact you shortly.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy py-12 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-8 text-white/60">
+                <div class="flex items-center gap-2">
+                    <img src="https://r2-bucket.flowith.net/f/e40304076643f972/aura_plumbing_logo_design_index_0.jpeg" alt="Aura Logo" class="w-8 h-8 rounded-full grayscale opacity-50">
+                    <span class="font-bold text-white">Aura Plumbing Company</span>
+                </div>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-aqua transition-colors"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-aqua transition-colors"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-aqua transition-colors"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <p class="text-slate-500 text-sm">&copy; 2026 Aura Plumbing Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/2349164399886" class="whatsapp-btn flex items-center justify-center text-white" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
